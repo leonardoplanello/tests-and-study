@@ -1,11 +1,17 @@
-const JSX = (
-    <div>
-        <h1>h1</h1>
-    <p>p</p>
-    <ul>
-    <li>li1</li>
-    <li>li2</li>
-    <li>li3</li>
-    </ul>
-    </div>
-);
+class TypesOfFood extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h1>Types of Food:</h1>
+        {/* Change code below this line */}
+ReactDOM.render(componentToRender, targetNode)
+        {/* Change code above this line */}
+      </div>
+    );
+  }
+};
+
+// Change code below this line
